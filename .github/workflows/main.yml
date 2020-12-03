@@ -14,12 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Insatalling npm
+      - name: Installing npm
         uses: actions/setup-node@v2-beta
         with:
           version: 12    
 
+<<<<<<< HEAD
       - name: Insatalling yarn
+=======
+      - name: Installing yarn
+>>>>>>> 54148668ae324b618efcb382a5619defb6209551
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install
@@ -31,6 +35,6 @@ jobs:
         run: npm install -g surge
       
       - name: Deploying on surge
-        run: surge ./build MYPROJECT001.surge.sh --token ${{ secrets.MYPROJECT001 }}
+        run: surge ./build myproject001.surge.sh --token ${{ secrets.MYPROJECT001 }}
     
 
