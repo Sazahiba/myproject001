@@ -21,7 +21,6 @@ function Child() {
         setDesc('');
         setAmount(0)
     }
-
     
     return (
     <div className="container">
@@ -79,5 +78,6 @@ function Child() {
     </div>
   );
 }
+
 
 export default Child;

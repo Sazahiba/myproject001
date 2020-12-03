@@ -2,9 +2,9 @@ name: Expense Tracker
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
   workflow_dispatch:
 
@@ -19,11 +19,7 @@ jobs:
         with:
           version: 12    
 
-<<<<<<< HEAD
       - name: Installing yarn
-=======
-      - name: Installing yarn
->>>>>>> 54148668ae324b618efcb382a5619defb6209551
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install
