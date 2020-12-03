@@ -20,7 +20,7 @@ jobs:
           version: 12    
 
 <<<<<<< HEAD
-      - name: Insatalling yarn
+      - name: Installing yarn
 =======
       - name: Installing yarn
 >>>>>>> 54148668ae324b618efcb382a5619defb6209551
