@@ -19,7 +19,7 @@ jobs:
         with:
           version: 12    
 
-      - name: Insataling yarn
+      - name: Insatalling yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: install
